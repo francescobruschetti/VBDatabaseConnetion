@@ -1,10 +1,17 @@
 ﻿Imports Npgsql
+Imports System.Data.SqlClient
+
+
 
 Public Class Form1
     ' COMMENTO ......
-    ' Variables for manage the db
+    ' Variables for manage the posdtgre db
     Public Shared connectionString As String = "Server=localhost;Port=5432;UserId=postgres;Password=admin;Database=Agile_Business;CommandTimeout=300;"
     Public Shared DBConnection As NpgsqlConnection
+
+    ' SQL Server connection
+    Dim SQLConnection As New SqlClient.SqlConnection
+    Dim SQLConnectionString As String = "Data Source=(localdb)\MSSQLLocalDB;initial catalog=TWPROJECT;Integrated Security=true;Connection Timeout=10;"
 
     ' array 
     Public Shared dsTabelle As New DataSet
@@ -50,6 +57,37 @@ Public Class Form1
             lblStato.Text = "Errore: " & ex.Message
         End Try
     End Sub
+
+    Public Sub SQLServer_DBConnection()
+
+        Dim strCommand As String = "SELECT * FROM Tasks"
+        Dim command As SqlCommand
+        Dim da As SqlDataAdapter
+        Dim dt As New DataTable
+        Try
+            SQLConnection.ConnectionString = SQLConnectionString
+            command = New SqlCommand(strCommand, SQLConnection)
+            command.CommandTimeout = 3000
+
+            da = New SqlDataAdapter(command)
+            da.Fill(dt)
+
+            dgvData.DataSource = dt
+
+            MsgBox(dt.Rows.Count.ToString(), MsgBoxStyle.MsgBoxSetForeground)
+
+        Catch ex As Exception
+            MsgBox("Errore: " & ex.Message, MsgBoxStyle.MsgBoxSetForeground)
+        Finally
+            If SQLConnection.State = ConnectionState.Open Then
+                SQLConnection.Close()
+            End If
+        End Try
+
+
+
+    End Sub
+
 
     Public Function Close_Connection() As Boolean
         Dim retValue = False
@@ -144,5 +182,9 @@ Public Class Form1
             DBConnection.Close()
         End Try
 
+    End Sub
+
+    Private Sub btnSQLServer_Connection_Click(sender As Object, e As EventArgs) Handles btnSQLServer_Connection.Click
+        SQLServer_DBConnection()
     End Sub
 End Class
