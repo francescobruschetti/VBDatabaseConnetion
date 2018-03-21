@@ -1,0 +1,15 @@
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\bin\Debug\VBPostgreSQL_Connection.exe.config
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\bin\Debug\VBPostgreSQL_Connection.exe
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\bin\Debug\VBPostgreSQL_Connection.pdb
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\bin\Debug\VBPostgreSQL_Connection.xml
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\obj\Debug\VBPostgreSQL_Connection.vbprojResolveAssemblyReference.cache
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\obj\Debug\VBPostgreSQL_Connection.Resources.resources
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\obj\Debug\VBPostgreSQL_Connection.vbproj.GenerateResource.Cache
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\obj\Debug\VBPostgreSQL_Connection.exe
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\obj\Debug\VBPostgreSQL_Connection.xml
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\obj\Debug\VBPostgreSQL_Connection.pdb
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\bin\Debug\Npgsql.dll
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\bin\Debug\System.Threading.Tasks.Extensions.dll
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\bin\Debug\Npgsql.xml
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\bin\Debug\System.Threading.Tasks.Extensions.xml
+c:\users\fra\documents\visual studio 2015\Projects\VBPostgreSQL_Connection\VBPostgreSQL_Connection\obj\Debug\VBPostgreSQL_Connection.Form1.resources
