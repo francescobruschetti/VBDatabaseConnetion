@@ -22,5 +22,10 @@ VBPostgreSQL_Connection
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="M:VBPostgreSQL_Connection.Form1.btnSQLServer_Connection_Click(System.Object,System.EventArgs)">
+ 
+ SQL SERVER CODE
+ 
+</member>
 </members>
 </doc>
